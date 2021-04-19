@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-18T21:22:35Z" name="Suite" finished-at="2021-04-18T21:26:03Z" duration-ms="207806">
+    <groups>
+      <group name="regression">
+        <method signature="CorporateWellnessPageTest.scheduleDem1()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" name="scheduleDem1" class="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest"/>
+        <method signature="CorporateWellnessPageTest.scheduleDemo2()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" name="scheduleDemo2" class="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest"/>
+        <method signature="CorporateWellnessPageTest.scheduleDemo3()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" name="scheduleDemo3" class="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest"/>
+        <method signature="CorporateWellnessPageTest.scheduleDemo4()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" name="scheduleDemo4" class="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest"/>
+        <method signature="URLTest.invalidURLTest()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" name="invalidURLTest" class="com.team.findinghospital.qa.testcases.URLTest"/>
+        <method signature="URLTest.validURLTest()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" name="validURLTest" class="com.team.findinghospital.qa.testcases.URLTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DiagnosticPageTest.topCityTest()[pri:0, instance:com.team.findinghospital.qa.testcases.DiagnosticPageTest@489115ef]" name="topCityTest" class="com.team.findinghospital.qa.testcases.DiagnosticPageTest"/>
+        <method signature="LandingPageTest.inputBoxTest()[pri:0, instance:com.team.findinghospital.qa.testcases.LandingPageTest@1a677343]" name="inputBoxTest" class="com.team.findinghospital.qa.testcases.LandingPageTest"/>
+        <method signature="SearchFiltersTest.hospitalList()[pri:0, instance:com.team.findinghospital.qa.testcases.SearchFiltersTest@15de0b3c]" name="hospitalList" class="com.team.findinghospital.qa.testcases.SearchFiltersTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-04-18T21:22:35Z" name="Test" finished-at="2021-04-18T21:26:03Z" duration-ms="207806">
+      <class name="com.team.findinghospital.qa.testcases.SearchFiltersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.SearchFiltersTest@15de0b3c]" started-at="2021-04-19T02:53:19Z" name="setup" finished-at="2021-04-19T02:53:29Z" duration-ms="9830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hospitalList()[pri:0, instance:com.team.findinghospital.qa.testcases.SearchFiltersTest@15de0b3c]" started-at="2021-04-19T02:53:29Z" name="hospitalList" finished-at="2021-04-19T02:54:43Z" duration-ms="74520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalList -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.SearchFiltersTest@15de0b3c]" started-at="2021-04-19T02:54:43Z" name="close" finished-at="2021-04-19T02:54:45Z" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.team.findinghospital.qa.testcases.SearchFiltersTest -->
+      <class name="com.team.findinghospital.qa.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.LandingPageTest@1a677343]" started-at="2021-04-19T02:52:56Z" name="setup" finished-at="2021-04-19T02:53:04Z" duration-ms="7584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="inputBoxTest()[pri:0, instance:com.team.findinghospital.qa.testcases.LandingPageTest@1a677343]" started-at="2021-04-19T02:53:04Z" name="inputBoxTest" finished-at="2021-04-19T02:53:17Z" duration-ms="13185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputBoxTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.LandingPageTest@1a677343]" started-at="2021-04-19T02:53:17Z" name="close" finished-at="2021-04-19T02:53:19Z" duration-ms="1740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.team.findinghospital.qa.testcases.LandingPageTest -->
+      <class name="com.team.findinghospital.qa.testcases.DiagnosticPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.DiagnosticPageTest@489115ef]" started-at="2021-04-19T02:54:45Z" name="setup" finished-at="2021-04-19T02:54:50Z" duration-ms="4997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="topCityTest()[pri:0, instance:com.team.findinghospital.qa.testcases.DiagnosticPageTest@489115ef]" started-at="2021-04-19T02:54:50Z" name="topCityTest" finished-at="2021-04-19T02:54:59Z" duration-ms="8702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topCityTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.DiagnosticPageTest@489115ef]" started-at="2021-04-19T02:54:59Z" name="close" finished-at="2021-04-19T02:54:59Z" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.team.findinghospital.qa.testcases.DiagnosticPageTest -->
+      <class name="com.team.findinghospital.qa.testcases.URLTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:35Z" name="setup" finished-at="2021-04-19T02:52:45Z" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidURLTest()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:45Z" name="invalidURLTest" finished-at="2021-04-19T02:52:46Z" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidURLTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:46Z" name="close" finished-at="2021-04-19T02:52:46Z" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:46Z" name="setup" finished-at="2021-04-19T02:52:52Z" duration-ms="5515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validURLTest()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:52Z" name="validURLTest" finished-at="2021-04-19T02:52:55Z" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validURLTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.URLTest@6ed3ccb2]" started-at="2021-04-19T02:52:56Z" name="close" finished-at="2021-04-19T02:52:56Z" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.team.findinghospital.qa.testcases.URLTest -->
+      <class name="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:54:59Z" name="setup" finished-at="2021-04-19T02:55:08Z" duration-ms="8203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scheduleDem1()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:08Z" name="scheduleDem1" finished-at="2021-04-19T02:55:11Z" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleDem1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:11Z" name="close" finished-at="2021-04-19T02:55:14Z" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:14Z" name="setup" finished-at="2021-04-19T02:55:20Z" duration-ms="5872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scheduleDemo2()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:20Z" name="scheduleDemo2" finished-at="2021-04-19T02:55:28Z" duration-ms="7971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleDemo2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:28Z" name="close" finished-at="2021-04-19T02:55:29Z" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:29Z" name="setup" finished-at="2021-04-19T02:55:36Z" duration-ms="7253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scheduleDemo3()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:36Z" name="scheduleDemo3" finished-at="2021-04-19T02:55:41Z" duration-ms="4437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleDemo3 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:41Z" name="close" finished-at="2021-04-19T02:55:43Z" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:43Z" name="setup" finished-at="2021-04-19T02:55:53Z" duration-ms="10452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scheduleDemo4()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:55:53Z" name="scheduleDemo4" finished-at="2021-04-19T02:56:00Z" duration-ms="7306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleDemo4 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.team.findinghospital.qa.testcases.CorporateWellnessPageTest@3857f613]" started-at="2021-04-19T02:56:00Z" name="close" finished-at="2021-04-19T02:56:03Z" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.team.findinghospital.qa.testcases.CorporateWellnessPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
