@@ -4,11 +4,15 @@
 
   <test name="Test">
     <classes>
-     <class name="com.team.findinghospital.qa.testcases.URLTest"/>
-      <class name="com.team.findinghospital.qa.testcases.LandingPageTest"/> 
-      <class name="com.team.findinghospital.qa.testcases.SearchFiltersTest"/> 
-      <class name="com.team.findinghospital.qa.testcases.DiagnosticPageTest"/>
       <class name="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest"/>
+       <class name="com.team.findinghospital.qa.testcases.DiagnosticPageTest"/>
+      <class name="com.team.findinghospital.qa.testcases.SearchFiltersTest"/> 
+      <class name="com.team.findinghospital.qa.testcases.LandingPageTest"/> 
+     <class name="com.team.findinghospital.qa.testcases.URLTest"/>
+      
+      
+     
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
